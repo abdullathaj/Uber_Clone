@@ -1,0 +1,380 @@
+*{
+   margin: 0;
+   padding: 0; 
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav_bar{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around ;
+    background-color: black;
+    color: white;
+}
+
+.nav_right {
+    display: flex;
+}
+.nav_left{
+    display: flex;
+    margin-left: 3px;
+}
+.nav_left img{
+    margin-top: -11px;
+    margin-left: 3px;
+}
+
+
+.nav_left p{
+    margin-inline: 22px;
+    margin-top: 11px;
+}
+.nav_right i{
+    margin-top: 11px;
+}
+.nav_right p{
+    margin-inline: 22px;
+    margin-top: 11px;
+    margin-right: 10px;
+    justify-content: space-evenly;
+}
+.nav_right button{
+    margin-top: 5px;
+    width: 70px;
+    height: 36px;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    border: none;
+    border-radius: 22px;
+
+}
+.nav_right button:hover{
+background-color: transparent;
+color: white;
+border: 2px solid white;
+}
+.card1{
+    display: block;
+    height: 50px;
+    width: 40px;
+    
+}
+.textcol{
+    color: black;
+    background-color: white;
+}
+
+.inp-tag::placeholder{
+    color: white;
+}
+
+.card-1{
+    background-color: black;
+}
+
+#words{
+    display: inline-block;
+    color: white;
+}
+
+.req-word{
+    font-size: 26px;
+    display: block;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#butt{
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 9px;
+}
+
+#words{
+    display: inline-block;
+    color: white;
+    float: right;
+    position: relative;
+    right: 1016px;
+    bottom: 754px;
+}
+
+.card-1{
+    background-color: black;
+    height: 1000px;
+}
+
+.inp-style{
+    display: block;
+    height: 41px;
+    width: 381px;
+    margin-top: 41px;
+    border-radius: 7px;
+    padding-left: 28px;
+    font-size: 16px;
+}
+
+#butt{
+    margin-top: 30px;
+    border-radius: 8px;
+    width: 146px;
+    padding: 12px;
+    font-weight: bold;
+}
+
+.img{
+    position: relative;
+    left: 720px;
+    width: 25px;
+}
+
+
+.card2-left{
+    float: right;
+    position: relative;
+    left: 52rem;
+}
+
+.card3-left{
+    float: left;
+}
+
+
+#img1-card1{
+    position: relative;
+    height: 31em;
+    top: 105px;
+    right: 11em;
+}
+
+
+.card2{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.img2-card{
+    position: relative;
+    right: 41em;
+}
+
+.h1-card2{
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 52px;
+}
+
+.card2-p{
+    margin-top: 19px;
+    letter-spacing: 0;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.button2{
+    margin-top: 61px;
+    padding: 14px;
+    border-radius: 15px;
+    width: 141px;
+    border: none;
+    background: black;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    height: 51px;
+
+}
+
+.card2-span{
+    margin-left: 34px;
+    font-size: 19px;
+    border-bottom: 2px solid lightgrey;
+    cursor: pointer;
+}
+
+.card2-span:hover{
+    border-bottom: 2px solid black;
+}
+
+.card3-img{
+    position: relative;
+    left: 29em;
+    height: 463px;
+    top: 88px;
+}
+
+.h1-card3{
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 52px;
+}
+
+.card3-left{
+    position: relative;
+    left: 8em;
+    top: 5em;
+}
+
+.btn3{
+    margin-top: 61px;
+    padding: 14px;
+    border-radius: 15px;
+    width: 141px;
+    border: none;
+    background: black;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    height: 51px;
+}
+
+.p3{
+    letter-spacing: 0;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 25px;
+}
+
+.card3-span{
+    margin-left: 34px;
+    font-size: 22px;
+    border-bottom: 2px solid lightgrey;
+    cursor: pointer;
+}
+
+.right{
+    position: relative;
+    left: 57em;
+    top: 14em;
+}
+.card4-img{
+    position: relative;
+    left: 12em;
+    height: 463px;
+    top: -200px;
+}
+.h1-card4{
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 52px;
+}
+.card4-left{
+    position: relative;
+    left: 56em;
+    top: 9em;
+}
+.btn4{
+    margin-top: 61px;
+    padding: 14px;
+    border-radius: 15px;
+    width: 141px;
+    border: none;
+    background: black;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    height: 51px;
+}
+.p4{
+    letter-spacing: 0;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 25px;
+}
+.footer{
+    height: 400px;
+    margin-top: -180px;
+    background-color: black;
+    color: white;
+   
+}
+.footlist{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}.list1{
+    margin-top: 10px;
+}
+
+
+.card1-left{
+    float: right;
+}
+
+.img2-card{
+    position: relative;
+    right: 22em;
+    height: 29em;
+    top: 2em;
+}
+
+#img2card2id{
+    position: relative;
+    right: 22em;
+}
+
+.req-word{
+    color: white;
+}
+
+.card1-right{
+    position: relative;
+    left: 14em;
+    top: 8em;
+}
+
+#img1-card1 {
+    position: relative;
+    height: 36em;
+    top: 105px;
+    right: 11em;
+}
+
+.card-1 {
+    background-color: black;
+    height: 47em;
+}
+
+.card4-img {
+    position: relative;
+    left: 7em;
+    height: 463px;
+    top: -200px;
+}
+
+#card1-styleh1{
+    color: white;
+    font-size: 4em;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    margin-bottom: 6px;
+}
+
+.list1{
+    margin-top: 48px;
+}
+
+.list2{
+    margin-top: 48px;
+}
+
+.list3{
+    margin-top: 44px;
+}
+
+.h2-footer{
+    margin-bottom: 15px;
+}
+
